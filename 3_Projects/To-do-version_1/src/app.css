@@ -1,0 +1,23 @@
+h1{
+  font-weight: 700;
+  font-size: 40px;
+  margin: 12px;
+  margin-bottom: 20px;
+  color: rgb(10, 10, 10);
+}
+
+input{
+  width: 100%;
+}
+
+.todo-items{
+  text-align: left;
+}
+
+.item-row{
+  margin: 15px 6px;
+}
+
+.our-button{
+  min-width: 90px;
+}
