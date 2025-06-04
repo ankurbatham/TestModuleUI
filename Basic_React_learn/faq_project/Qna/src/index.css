@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.container h1{
+  text-align: center;
+  margin: 10px;
+}
+
+.faqOuter{
+  margin: auto;
+  width: 1320px;
+  margin-top: 15px;
+  padding: 10px;
+  
+}
+.faqInner{
+  border:1px solid red;
+  margin-bottom: 20px;
+
+}
+.faqInner h2{
+  margin: 0;
+  padding: 15px;
+  background-color: rgba(30, 29, 29, 0.905);
+  color: white;
+  text-align: left;
+}
+.faqInner p{
+  text-align: left;
+  padding: 15px;
+  transform: scaleY(0);
+  padding: 0px;
+  margin: 0px;
+  height: 0px;
+  transition: 0.5s
+}
+.viewAns{
+  height:auto !important ;
+  padding: 10px !important;
+  transform: scaleY(1) !important;
+}
