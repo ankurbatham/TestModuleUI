@@ -2,12 +2,22 @@ import React, { useState } from 'react'
 import { question } from './test'
 import Faqs from '../components/Faqs'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   const [showAns,setshowAns]=useState(question[0].id)
+ const showNotification = ()=>{
+toast.success("congrats");
+ }
   return (
     <div>
+      
 
-      <Faqs></Faqs>
+     <ToastContainer></ToastContainer>
+<Faqs></Faqs>
+<button onClick={showNotification} >click</button>
+      
 
       {/* BY NORMAL METHOD */}
       {/* <div className='container'>
@@ -29,6 +39,7 @@ function App() {
         </div>
       </div> */}
     </div>
+    
   )
 }
 
